@@ -1,5 +1,7 @@
 # GPU-Aware Kubernetes Model Serving
-
+<p align="center">
+  <img src="assets/assetsreadme-banner.jpg" alt="GPU-Aware Kubernetes Model Serving banner" width="100%">
+</p>
 A learning project that serves a Hugging Face causal language model through
 FastAPI, detects whether CUDA is available, schedules the service onto GPU
 nodes in Kubernetes, and exposes NVIDIA GPU metrics for Prometheus.
